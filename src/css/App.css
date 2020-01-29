@@ -1,18 +1,22 @@
 body {
   background-color: #404A3C;
   font-family: 'Bangers', cursive;
-  
 }
 
-
 .pomodoro-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .title {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   color: #2CFF00;
   font-weight: lighter;
   font-size: 45px;
@@ -36,3 +40,4 @@ body {
     font-size: 55px;
   }
 }
+/*# sourceMappingURL=App.css.map */
