@@ -3,6 +3,20 @@ body {
   font-family: 'Bangers', cursive;
   
 }
+.pomodoro-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 60%;
+  border-style: dashed;
+  border-color: #6299AA;
+  border-radius: 5px;
+  border-width: 3px;
+  display: flex;
+  flex-direction: column;
+}
 
 .title {
   align-self: center;
